@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Nunito&family=Patrick+Hand&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: #f5f5f5;
+    /* overflow: hidden; */
+}
+
+.tujulogo {
+    text-align: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.tujulogo img {
+    height: 200px;
+}
+
+/* Main */
+.formcontent {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 30px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #8a8a8a;
+}
+
+.contactdetails {
+    width: 844px;
+    height: 286px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    align-self: center;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.contactdetails .text-wrapper {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contactdetails .row1 {
+    margin-top: 20px;
+}
+
+.contactdetails .row1 input {
+    width: 100%;
+    height: 41px;
+    border-radius: 10px;
+    border: 1px solid #8A8A8A;
+    background: #FFF;
+    padding-left: 5px;
+}
+
+.contactdetails .row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.contactdetails .row2 input {
+    width: 369px;
+    height: 41px;
+    border-radius: 10px;
+    border: 1px solid #8A8A8A;
+    background: #FFF;
+    padding-left: 5px;
+}
+
+/* Guest info */
+.guest {
+    align-items: center;
+    justify-content: center;
+}
+
+.guestbox {
+    width: 844px;
+    height: 286px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.guestcontent {
+    height: 286px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.guestcontent .col3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.guestcontent .col3 .num {
+    font-size: 24px;
+    color: #8a8a8a;
+}
+
+.guestcontent .col1 {
+    justify-content: space-evenly;
+}
+
+.guestcontent .col1 .rname {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.guestcontent .col1 .outlet {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.guestcontent .col1 img {
+    width: 169px;
+    height: 169px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.guestcontent .col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.guestcontent .col2 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.guestcontent .col2 .text-wrapper-6{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.guestcontent .col2 input {
+    width: 250px;
+    height: 41px;
+    border-radius: 10px;
+    border: 1px solid #8A8A8A;
+    background: #FFF;
+    padding-left: 5px;
+}
+
+.guestcontent .col4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.guestcontent .col4 .text-wrapper-91 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.guestcontent .col4 .text-wrapper-101 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* reservation summary */
+
+.column2 {
+    width: 100%;
+    margin-left: 70%;
+    margin-top : -42%;
+}
+
+.column2 .col2 {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.summary {
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    width: 370px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.summary-box {
+    padding-top: 6%;
+    padding-bottom: 6%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.sumboxtext {
+    text-align: center;
+    align-content: center;
+}
+
+.sumboxtext .sumtext {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #8a8a8a;
+}
+
+.sumboxtext .subtot {
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+.summary-box button {
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: #F79433;
+    background: #F79433;
+    height: 50px;
+    width: 300px;
+}

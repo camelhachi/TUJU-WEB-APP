@@ -1,0 +1,315 @@
+.si {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+}
+
+/* background css */
+
+.si .overlap-wrapper {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 962px;
+}
+
+.si .overlap {
+    position: relative;
+    height: 975px;
+    top: -13px;
+}
+
+.si .bg {
+    position: absolute;
+    width: 1512px;
+    height: 900px;
+    top: 75px;
+    left: 0;
+    object-fit: cover;
+}
+
+/* navbar css */
+
+.si .navwrapper {
+    width: 1512px;
+    height: 962px;
+}
+
+.si .navbar {
+    position: fixed; 
+    width: 100%; 
+    height : 95px;
+    background-color: #ffffff; 
+    z-index: 1000;
+    top:-15px;
+}
+
+.si .overlapnavbar {
+    position: relative;
+    width: 1512px;
+    height: 111px;
+}
+
+.si .rectanglenavbar {
+    position: absolute;
+    width: 1512px;
+    height: 82px;
+    top: 13px;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px #00000040;
+}
+
+.si .divnavbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 142px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+
+.si .div2navbar {
+    display: inline-flex;
+    align-items: center;
+    gap: 276px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.si .logo {
+    position: relative;
+    width: 157px;
+    height: 111px;
+    object-fit: cover;
+}
+
+.si .navbartext{
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 130px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.si .textwrapnavbar {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Myriad Pro-Semibold", Helvetica;
+    font-weight: 400;
+    color: #83603b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.si .textwrapnavbar2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Myriad Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #83603b;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.si .signin {
+    display: inline-flex;
+    align-items: center;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.si .group {
+    position: relative;
+    width: 130px;
+    height: 33px;
+}
+
+.si .overlapgroupnavbar {
+    position: relative;
+    width: 128px;
+    height: 33px;
+    background-color: #f79433;
+    border-radius: 10px;
+}
+
+.si .textwrapnavbar3 {
+    position: absolute;
+    top: 7px;
+    left: 34px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.si .bell {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.si .notification {
+    position: relative;
+    width: 38px;
+    height: 38px;
+}
+
+
+/* sign in form */  
+
+.box {
+    position: absolute;
+    width: 531px;
+    height: 378px;
+    top: 315px;
+    left: 492px;
+  }
+  
+  .overlapbox {
+    position: relative;
+    width: 529px;
+    height: 378px;
+    background-color: #ffffff;
+    border-radius: 10px;
+  }
+  
+  .framebox1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    position: absolute;
+    top: 54px;
+    left: 63px;
+  }
+  
+  .framebox2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .textwrapbox {
+    position: relative;
+    width: fit-content;
+    margin-top: -10px;
+    margin-bottom: 4px;
+    font-family: "Myriad Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .rectanglebox {
+    position: relative;
+    marigin-top:10px;
+    margin-bottom:20px;
+    width: 404px;
+    height: 41px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #8a8a8a;
+  }
+  
+  .rectanglebox input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .groupbox {
+    position: absolute;
+    width: 204px;
+    height: 35px;
+    top: 257px;
+    left: 164px;
+  }
+  
+  .overlapbox2 {
+    position: relative;
+    width: 202px;
+    height: 35px;
+    background-color: #f79433;
+    border-radius: 20px;
+  }
+ 
+  
+  .textwrapbox2 input[type="submit"] {
+    width: 82px;
+    top: 4px;
+    left: 55px;
+    font-family: "Myriad Pro-Semibold", Helvetica;
+    font-size: 20px;
+    position: absolute;
+    font-weight: 400;
+    color:#ffff ;
+    border:none;
+    background-color:#f79433;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
+  }
+  
+  .signup {
+    position: absolute;
+    top: 317px;
+    left: 135px;
+    font-family: "Myriad Pro-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .span {
+    color: #000000;
+  }
+  
+  .textwrapbox3 {
+    color: #F79433;
+    text-decoration: underline;
+    transition: background-color 0.3s ease;
+  }
+  
+  .textwrapbox3:hover {
+    background-color: #F79433;
+  }
+  
+  .textwrapbox4 {
+    position: absolute;
+    top: 150px;
+    left: -350px;
+    font-family: "Bruum FY-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+
